@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "cryptojslib": "^3.1.2"
+    "fast-sha256": "^1.0.0",
+    "tweetnacl-util": "^0.13.3"
   }
 }

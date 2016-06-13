@@ -8,6 +8,5 @@ var paymob_calc_secure_hash = function(secret_key, data) {
   for(var i = 0; i < keys.length; i++) {
     accumulator += data[keys[i]];
   }
-  var hash = CryptoJS.HmacSHA256(accumulator, secret_key);
-  return CryptoJS.enc.Hex.stringify(hash);
+  return nacl.util.encodeBase64(sha256.hmac(secret_key, accumulator));
 };

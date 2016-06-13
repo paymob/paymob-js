@@ -1,0 +1,21 @@
+{
+  "name": "js-hash-snippet",
+  "authors": [
+    "Ahmed H. Ismail <ahm3d.hisham@gmail.com>"
+  ],
+  "description": "Paymob hash snippet",
+  "main": "dist/paymob_js_hash.js",
+  "license": "MIT",
+  "homepage": "paymobsolutions.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fast-sha256": "^1.0.0",
+    "tweetnacl-util": "^0.13.3"
+  }
+}

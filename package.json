@@ -1,0 +1,28 @@
+{
+  "name": "js-hash-snippet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "dist": "gulp dist"
+  },
+  "author": "Paymob",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-gzip": "^1.4.0",
+    "gulp-install": "^0.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-order": "^1.1.1",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "main-bower-files": "^2.13.1",
+    "merge2": "^1.0.2",
+    "rimraf": "^2.5.2"
+  }
+}

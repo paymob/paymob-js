@@ -1,7 +1,7 @@
 {
   "name": "js-hash-snippet",
   "authors": [
-    "Ahmed H. Ismail <ahm3d.hisham@gmail.com>"
+    "Ahmed H. Ismail <ahmedhisham@paymobsolutions.com>"
   ],
   "description": "Paymob hash snippet",
   "main": "dist/paymob_js_hash.js",

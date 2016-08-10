@@ -5,7 +5,7 @@ var calc_secure_hash = function(secret_key, data) {
   'c_expiry_yy_U', 'c_cvv_U'];
   var keys = Object.getOwnPropertyNames(data).filter(function(element) {
     return data[element] !== null && filtered_keys.indexOf(element) === -1;
-  });
+  }).sort();
   var accumulator = '';
   for(var i = 0; i < keys.length; i++) {
     accumulator += data[keys[i]];

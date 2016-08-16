@@ -8,7 +8,13 @@ var calc_secure_hash = function(secret_key, data) {
   }).sort();
   var accumulator = '';
   for(var i = 0; i < keys.length; i++) {
-    accumulator += data[keys[i]];
+    if (data[keys[i]] == true) {
+      accumulator += 'True';
+    } else if (data[keys[i]] == false) {
+      accumulator += 'False';
+    } else {
+      accumulator += data[keys[i]];
+    }
   }
   var hash = CryptoJS.HmacSHA256(accumulator, secret_key);
   return CryptoJS.enc.Hex.stringify(hash);
